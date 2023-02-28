@@ -37,6 +37,9 @@ namespace laba3_sharp
                 case 7:
                     DayOfWeekS = Convert.ToString(days_of_week.Sunday);
                     break;
+                default:
+                    Console.WriteLine("Дней недели всего 7");
+                    break;
             }
             if (Hour >= 7 && Hour <= 12)
             {
